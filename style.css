@@ -1,12 +1,14 @@
 * {
   box-sizing:border-box;
-  outline: 2px solid red;
+  ouline: 2px solid red
 }
 
 body {
   background-color: #262626;
   font-family: Helvetica, Arial, sans-serif;
-  margin: 50px
+  margin: 100px;
+  
+  
 }
 
 #home-title {
@@ -15,14 +17,16 @@ body {
   height: 50px;
 }
 
-h2, #p1 {
+#greeting, #p1, #p2 {
   color: #e5e1e5;
 }
 
-li {
-  color: #e5e1e5;
+.recipes a:link {
+  color: #f17848;
+  
 }
 
 footer {
   color: #e5e1e5;
+  text-align: center
 }
